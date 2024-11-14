@@ -1,0 +1,62 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    flex-direction: column; /* Cột để tương thích cả Home và Dashboard */
+  }
+  
+  .connect-button {
+    padding: 12px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: 80px;
+    cursor: pointer;
+    background-color: #28a745; /* Màu xanh lá cây */
+    color: white;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .connect-button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+  
+  .connect-button:active {
+    background-color: #1e7e34;
+    transform: scale(0.98);
+  }
+  
+  .account-text {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .disconnect-button {
+    padding: 12px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: 80px;
+    cursor: pointer;
+    background-color: #dc3545; /* Màu đỏ cho nút Disconnect */
+    color: white;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .disconnect-button:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+  }
+  
+  .disconnect-button:active {
+    background-color: #bd2130;
+    transform: scale(0.98);
+  }
+  
