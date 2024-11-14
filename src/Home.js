@@ -7,7 +7,7 @@ function Home({ onConnect }) {
         style={{ padding: '10px 20px', fontSize: '16px', borderRadius: '10px', width: '150px', cursor: 'pointer' }}
         onClick={onConnect}
       >
-        Connect
+        Connect Wallet 
       </button>
     </div>
   );
