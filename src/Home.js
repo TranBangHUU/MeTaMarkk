@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.css'; // Import file CSS
+import './Home.css'; 
 
 function Home({ onConnect }) {
   return (

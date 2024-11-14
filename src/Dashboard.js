@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.css'; // Sử dụng chung file CSS với Home
+import './Home.css'; 
 
 function Dashboard({ account, onDisconnect }) {
   return (
